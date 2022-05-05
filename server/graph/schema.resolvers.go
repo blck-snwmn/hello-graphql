@@ -19,6 +19,10 @@ func (r *queryResolver) Todos(ctx context.Context) ([]*model.Todo, error) {
 	panic(fmt.Errorf("not implemented"))
 }
 
+func (r *queryResolver) Users(ctx context.Context) ([]*model.User, error) {
+	panic(fmt.Errorf("not implemented"))
+}
+
 func (r *todoResolver) User(ctx context.Context, obj *model.Todo) (*model.User, error) {
 	panic(fmt.Errorf("not implemented"))
 }
